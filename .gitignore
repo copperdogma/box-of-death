@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+._*
+
+# Private conversation exports, retrieval records, and personal shopping pages
+/.local/
+/hardware-specs/*.pdf
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+
+# Local tooling artifacts
+__pycache__/
+*.pyc
