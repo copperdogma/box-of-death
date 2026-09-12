@@ -2,7 +2,7 @@
 
 ## How to read this guide
 
-This guide reconstructs the Box of Death build from a 91-turn primary conversation plus complete related woodworking, copper-patina, and electrical conversations. `T` references identify primary turns; `W`, `P`, and `E` identify those related sources. It records three different kinds of information:
+This guide reconstructs the Box of Death build from a 91-turn primary conversation plus complete related woodworking, copper-patina, and electrical conversations. `T` references identify primary turns; `W`, `P`, and `E` identify those related sources. The [September 12 follow-up](recent-decisions-2026-09-12.md) adds recent main-chat turns, two branches, projection work, and existing local measurement notes (R1–R4, L1). It records three different kinds of information:
 
 - **Built** means the conversation explicitly says the work was completed.
 - **Selected** means the builder accepted the method or design, but completion was not recorded.
@@ -23,8 +23,11 @@ The documented physical sequence reached these milestones:
 5. Cracks and gaps were filled.
 6. The shell was sanded and cleaned.
 7. Oil-based KILZ primer was applied; priming was complete.
+8. Overall box, upright, and deck measurements were recorded; Photoshop template/artwork alignment was underway for projector tracing. (R4, L1)
+9. Real copper was selected and approximately 0.8 mm sheet purchased from Metal Supermarkets for a reported $90; the corrected size is 91.5 × 25.5 cm. (R2–R3)
+10. Construction-paper templates for all required edge pieces were cut and taped onto the box. (R3)
 
-The project record stops before it verifies the color coats, distressing, lettering, edge metal, leaf, rear pull, glass-light assemblies, electronic mounting, wiring, Matter firmware, or final test. (T076–T091)
+The reviewed record through September 12 still does not verify the color coats, distressing, lettering, edge metal, leaf, rear pull, glass-light assemblies, electronic mounting, wiring, Matter firmware, or final test. (T076–T091)
 
 The prop is intended for outdoor use (W004). No completed weather-exposure test is recorded.
 
@@ -42,7 +45,7 @@ The favorite front was the first major render direction. Later image work was re
 
 Use recovered images to resolve shape and decoration. The early numerical elevation was scaled from a generated perspective render and should never override the primed shell. Its estimates are retained in the [project specification](project-specs.md#concept-render-proportions). The recovered T008 graphic disagrees with the T007 text on sign height (175 mm versus 125 mm) and gives 22 degrees where the later build description says roughly 30 degrees. Its ambiguous 105 mm plan-view arrow and raster “Scale 1:5” are not manufacturing references.
 
-Before further fabrication, measure and record:
+Use the [builder-reported measurements](project-specs.md#builder-reported-shell-measurements) for the overall envelope and panel extents. Before further fabrication, verify those rounded values and complete the remaining measurements:
 
 - overall width, height, and depth;
 - deck angle;
@@ -54,6 +57,12 @@ Before further fabrication, measure and record:
 - available internal volume for battery, electronics, and wiring.
 
 The 100 mm button dimension is the outer face diameter. It is not the hole size. The seller supplied no cutout diameter or maximum panel thickness. [The dimension image](../hardware-specs/61nwO3za2lL._AC_SL1500_.jpg) also shows a 25 mm rim/body thickness and an unnamed 20 mm axial feature; neither defines the cutout.
+
+### Transfer the artwork before carving
+
+The selected workflow uses photographs scaled in Photoshop to physical measurements, black-and-white silhouettes, and flat artwork fitted within those silhouettes. Use the owned small projector to check the lettering, button placement, and skull at actual size on the box, then trace a paper skull pattern for the relief master. This is planned transfer work, not a completed tracing or carving. (R4)
+
+The upright's generated silhouette must not gain flares or change its crown. A later upright result was considered workable after failed overlays; the last reviewed deck result still needed correction. The deck projection contains only the flat blue deck and button, without the scalloped front facade or copper edging. Preserve its template aspect ratio and off-center placement specified by the template. See [artwork constraints and local files](recent-decisions-2026-09-12.md#artwork-constraints-and-remaining-checks). Reconcile the upright canvas width with the widest measured crown before transfer.
 
 ## 2. Cut matching profiles and flat shell parts
 
@@ -267,6 +276,10 @@ The final carving decision was one monolithic hardwood relief master rather than
 
 Earlier layered construction and 25–30 mm projections were exploratory. The later monolithic approach proposed a 20–25 mm blank, a boss 5–8 mm above the recess, and the skull another 3–5 mm above the boss, but these remain estimates. Make a small test relief before committing the logo. The builder has no 3D printer or laser-cutter access; suggestions that depended on them were explicitly rejected. (T032–T044)
 
+### Carving preparation update
+
+The builder owns carving tools but had not yet used them in the September 9 discussion; prior experience was a short sword carved from two 2×4s with a fixed-blade knife. A portable scrap support board was being considered because the waist-height workbench felt awkward. Back-screwing or clamping the blank to a larger board, practicing on scrap, and working from broad relief to details were proposed; neither the support board nor the master was confirmed built. Screw sizes, board dimensions, and example relief depths from that advice are not selected specifications. (R1)
+
 ### Copper skin and backfill
 
 The recovered retailer screenshot identifies **K&S 6020 soft-annealed copper foil, 36 gauge, 0.005 in / 0.127 mm, 12 × 30 in** and shows the matching package. Measure the actual stock before fabrication.
@@ -301,11 +314,23 @@ The superseded skull-pull concept also explored approximately 12–20 mm project
 
 Two roughly 1/4-in hex-head machine bolts, wide spacing, large washers, and locknuts were discussed. This was never engineered or load-tested. Describe it as an opening pull unless the complete assembly passes a defined carry test. A leather pull likewise needs a backing plate or other load-spreading attachment appropriate to the actual panel.
 
-## 11. Evaluate real metal edge bands
+## 11. Form the selected copper edge bands
 
-The late design review recognized that the generated box appeared to have thick metal protection on nearly every edge. Berry Brown had been bought to simulate metal beneath worn gold, but real copper or brass became the preferred direction to investigate.
+The initial review explored copper and brass instead of Berry Brown simulation. On September 11 the builder explicitly selected copper and bought sheet from Metal Supermarkets for a reported $90, approximately 0.8 mm thick. On September 12 the initial approximate 12 × 36 in description was corrected to **91.5 × 25.5 cm**. Alloy and temper remain unknown. This edge stock is separate from the thin K&S logo foil. (R2–R3)
 
-### Material range
+### Current template and forming decisions
+
+- Construction-paper templates for all required edges are complete and have been taped onto the box. Transfer their fit to the purchased sheet only after allowing for real metal thickness and bends.
+- The selected corner-cap direction puts a continuous bend around the visible front corner and overlapping returns underneath, superseding the first L-shaped blank with its visible corner gap.
+- The crown and deck front leading edges should have the rounded look of the mockup. A wire/core wrap is selected to try; no core diameter, adhesive, or completed metal prototype is established.
+- Paper tore at inside radii and folded at outside radii. The assistant proposed fitting the curved path first, then forming the round edge, with relief cuts on hidden returns and a short inside/outside-radius prototype. This remains untested advice. Suggested 4–5 mm cores are trial sizes, not a manufacturing dimension; determine bend and return allowance from actual stock.
+- Visible fastener heads must be real copper for compatible aging and should read as raised rivets. The flat Etsy heads were not the intended look. Round-head solid-copper rivets were suggested, including 3 mm shank × 6 mm length / 5–5.5 mm head and a smaller variant; no purchase, retention method, or patina match was confirmed.
+- The visual target is old, grimy, patinated copper, with verdigris explored. The builder rejected metal depicted as flaking paint. The earlier unsealed-socket decision does not automatically settle sealing of all edge trim.
+
+The [recent source record](recent-decisions-2026-09-12.md) preserves exact turn identities and separates selected design from assistant suggestions. Cutting, annealing, forming, bonding, fastening, and patination are not recorded complete.
+
+
+### Earlier material exploration
 
 Historical advice suggested thin sheet or flashing around 0.3–0.8 mm, with 0.4–0.6 mm / 0.015–0.025 in as a likely working range. The user's initial 2–3 mm thought would be far too heavy for wrapped decorative trim at this scale.
 
@@ -319,7 +344,7 @@ Historical advice suggested thin sheet or flashing around 0.3–0.8 mm, with 0.4
 - Use flat strip bent over wood for curved, scalloped, or changing edges.
 - Use thin angle only on straight runs where its leg size and bend radius fit.
 - Cut strip widths and lengths from the measured primed shell, not the render.
-- Form a representative straight corner and a crown curve before buying the full quantity.
+- Prototype a representative straight corner and a crown curve before cutting the full layout from the purchased sheet.
 - Deburr every cut edge.
 - Keep fastener points clear of internal wiring and fingers.
 - Use adhesive only if it is rated for the chosen metal, wood/paint substrate, and intended exposure.
@@ -436,7 +461,11 @@ Once the finish, trim, and electronics are individually proven:
 | Shell completion | Crown/cleat methods discussed; shell assembled, filed, filled, sanded, and cleaned | T069–T078 |
 | Primer | Oil-based KILZ clarified and applied; priming completed | T079–T084 |
 | Finish correction | Builder supplied exact five-color layering and surface assignments | T085–T087 |
-| Real metal review | Copper/brass edge bands investigated; material still unselected | T088–T091 |
+| Real metal review | Copper/brass edge bands investigated; selection was still open at the original archive boundary | T088–T091 |
+| Carving setup | Owned carving tools confirmed; portable workholding explored | R1 |
+| Copper selection and purchase | Copper selected; about 0.8 mm sheet purchased for reported $90; corrected to 91.5 × 25.5 cm | R2–R3 |
+| Edge templates and appearance | All paper templates complete; underside corner overlaps, rounded leading edges, real copper heads, and patinated-metal appearance selected in principle | R2–R3 |
+| Artwork transfer | Measurements and Photoshop alignment underway; projector tracing planned; upright workable, deck still needed correction in reviewed chat | R4, L1 |
 
 ## Historical sourcing record
 
@@ -446,7 +475,7 @@ These links and supplier names preserve earlier research. They are not current s
 - [Ymiko MOSFET module five-pack — Amazon Canada, ASIN B0FVRLR68H](https://www.amazon.ca/dp/B0FVRLR68H)
 - [Black Forest Wood Co. lumber](https://blackforestwood.com/collections/lumber)
 - WoodCache and Windsor Plywood for hardwood shorts or surfaced maple
-- Metal Supermarkets for candidate C260 brass and C110 copper sheet
+- Metal Supermarkets supplied the purchased copper edge sheet (R2–R3); earlier C260/C110 suggestions do not identify its actual alloy
 - Calgary Metal Market and Custom Stainless & Sheet Metal for possible cut-to-size/forming service
 - Lee Valley for thin half-hard brass shim stock
 - [Paulin 26-gauge copper sheet](https://www.homedepot.ca/product/paulin-12x24-26ga-copper-sheet-/1000862144)
@@ -489,6 +518,8 @@ The saved retailer PDFs remain local and ignored because they include personaliz
 | P001–P002 | 2026-08-10 | 2 | `6a794a04-8678-83e8-88da-7dadbaea185a` | Copper-standoff target, proposed staged patina, horizontal orientation, and intentional unsealed natural aging |
 | E001–E003 | 2026-07-23 | 3 | `6a627445-ed90-83e8-84da-310c5905c766` | 5 V USB-C source, ESP32 `5V`/`VIN`, button input/lamp question, uncertain 2.0–3.3 V strings, resistor analysis, proposed near-3.0 V buck with three parallel strings |
 
+Recent R1–R4 and L1 sources are indexed in the [September 12 update](recent-decisions-2026-09-12.md#sources). Original T/W/P/E entries above retain their historical scope.
+
 ## Unresolved documentation
 
-The recovered conversations do not contain executable code, a Matter definition, schematic, pin map, CAD, verified cut list, complete as-built measurements, accepted finish sample, installed rear pull, installed edge-metal choice, or final test evidence. Any future source should update the relevant section while preserving whether the addition was built, selected, or explored.
+The recovered conversations do not contain executable code, a Matter definition, schematic, pin map, CAD, verified cut list, complete as-built measurements, accepted finish sample, installed rear pull, installed copper trim, or final test evidence. Any future source should update the relevant section while preserving whether the addition was built, selected, or explored.

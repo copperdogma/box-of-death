@@ -6,11 +6,11 @@ The Box of Death is a self-contained, tabletop carnival button box for **Death, 
 
 The physical design should look like a handmade mechanism recovered from an old, run-down carnival. Real wood, glass, leather, leaf, and copper or brass provide the visible material language. Modern electronics remain hidden inside the clamshell enclosure.
 
-This document separates the known build from proposed work. `T` references point to the 91-turn primary conversation; `W`, `P`, and `E` identify the related woodworking, patina, and electrical conversations. All point to the [source coverage index](build-guide.md#source-coverage-index), which records the private-source coverage without publishing the transcripts.
+This document separates the known build from proposed work. `T` references point to the 91-turn primary conversation; `W`, `P`, and `E` identify the related woodworking, patina, and electrical conversations. R1–R4 and L1 refer to the [September 12 source review](recent-decisions-2026-09-12.md). The original references point to the [source coverage index](build-guide.md#source-coverage-index), which records the private-source coverage without publishing the transcripts.
 
 ## Status
 
-The latest verified state in the source conversation is:
+The latest source-backed state, including the [September 12 update](recent-decisions-2026-09-12.md), is:
 
 - The wooden shell and barrel-shaped crown are assembled.
 - The back/bottom half was reported solidly assembled, and the front/bottom hinge was installed flush after an interference-driven facade recut. Interior cleats were being added. (W007–W010)
@@ -18,6 +18,9 @@ The latest verified state in the source conversation is:
 - Gaps were filled; the shell was sanded and cleaned.
 - An oil-based KILZ primer was applied and priming was complete.
 - The exact paint stack was selected.
+- Real copper edging was selected; approximately 0.8 mm sheet was purchased from Metal Supermarkets for a reported $90. Corrected sheet size: 91.5 × 25.5 cm. (R2–R3)
+- Construction-paper templates for all required edge pieces were cut and taped to the box. Rounded crown/deck leading edges are selected to attempt; metalwork completion is not recorded. (R3)
+- Overall measurements are recorded below. Dimensionally matched artwork for projector tracing is in progress. Real copper fastener heads are required; a specific fastener purchase remains unconfirmed. (R2–R4, L1)
 
 The source does **not** establish that color coats, distressing, lettering, leaf, metal edge bands, rear handle, marble lights, electronics, Matter firmware, or final sealing have been completed. Those items remain open or need newer evidence. (T076–T091)
 
@@ -60,7 +63,25 @@ No Matter device type, cluster, command, event schema, commissioning flow, pin a
 
 ## Physical specification
 
-### Known or source-backed values
+### Builder-reported shell measurements
+
+These measurements were already recorded in the working specification before this update (L1). The builder describes them as not completely exact and often rounded to the nearest 0.5 cm. They supersede render estimates for these dimensions, but are not a complete fabrication drawing.
+
+| Feature | Measurement | Reference / limit |
+|---|---:|---|
+| Overall height | 39 cm | Whole box |
+| Main-body width | 38.5 cm | Not the widest crown |
+| Overall depth | 25.5 cm | Whole box |
+| Upright narrow width | 36.5 cm | Vertical face |
+| Upright widest top | 39.5 cm | Scalloped crown |
+| Upright shorter height | 22.5 cm | Measured from top of slanted deck |
+| Upright tallest height | 24 cm | Measured from top of slanted deck |
+| Slanted deck width | 36.5 cm | Deck only; excludes vertical side edges |
+| Slanted deck surface height | 21 cm | Along the deck; not its vertical rise |
+
+Panel thicknesses, exact angles, cutouts, clearances, and bulb centers still need measurement. Reconcile the 36.5 cm nominal upright artwork canvas with the 39.5 cm widest top before tracing. See [artwork constraints](recent-decisions-2026-09-12.md#artwork-constraints-and-remaining-checks).
+
+### Other known or source-backed values
 
 | Item | Value | Evidence and limit |
 |---|---:|---|
@@ -78,6 +99,7 @@ No Matter device type, cluster, command, event schema, commissioning flow, pin a
 | Barrel-top strips | planned around 1 cm wide, from 1/4-in plywood | top is built, but actual strip width and bevel are unrecorded (T076–T078) |
 | Bulb socket/standoff stock | described as 1/4-in copper pipe | measure actual outside diameter before selecting a bit (T062–T064) |
 | Proposed socket recess | about 1–2 mm deep | selected method in principle; installation not confirmed (T062–T064) |
+| Copper edge sheet | 91.5 × 25.5 cm, approximately 0.8 mm; reported $90 | Purchased from Metal Supermarkets (R2–R3); corrected size replaces approximate 12 × 36 in; alloy/temper unknown |
 | Copper forming foil | K&S 6020, soft annealed, 36 gauge, 0.005 in / 0.127 mm; 12 × 30 in sheet | readable in the recovered retailer screenshot and pictured package (T034); measure the actual stock for fabrication |
 
 Relevant seller images:
@@ -87,7 +109,7 @@ Relevant seller images:
 - [Button dimension image](../hardware-specs/61nwO3za2lL._AC_SL1500_.jpg)
 - [Switch, holder, and LED insert](../hardware-specs/51Ywr110fFL._AC_SL1500_.jpg)
 
-Measure the completed primed shell before publishing an as-built drawing. Its actual width, height, depth, deck angle, button center, backboard size, bulb count and positions, panel cutout, hinge geometry, and internal clearances are not recorded.
+Overall shell, upright, and deck measurements are recorded above. Before publishing an as-built drawing, verify their rounding and record the remaining deck angle, button center, bulb count and positions, panel cutout, hinge geometry, and internal clearances.
 
 ### Concept-render proportions
 
@@ -154,7 +176,7 @@ Almond Butter in selected areas
 Chocolate Swirl
 ```
 
-Gold or metallic areas reveal Berry Brown beneath them. If real metal edge bands replace leafed or painted trim, the Berry Brown assignment should be limited to the metallic details that remain simulated.
+Gold or metallic areas reveal Berry Brown beneath them. Real copper has now been selected for edge bands (R2). Limit Berry Brown to metallic details that remain simulated or leafed; do not give bare copper the appearance of flaking paint. The selected copper appearance is aged, grimy, and patinated, with a verdigris concept requested; no completed edge patina is recorded.
 
 Gold, silver, and copper leaf are owned. Earlier placement ideas put gold on lettering, marquee outlines, and raised ornament; copper on selected trim, the button area, and skull boss; and silver only as a sparse underlayer. Exact final leaf placement is still open. (T009–T010, T084–T088)
 
@@ -275,8 +297,8 @@ Status meanings:
 | Paint | Ocean Abyss MQ6-01, Satin sample, B3703 | Confirmed | 237 mL / 8 oz photographed; deck and rear panel |
 | Paint | Red Pepper PPU2-02 | Confirmed | Red structural areas |
 | Rear pull | Plain leather loop or half-width leather strap with rivet-like fasteners | Planned, unresolved | Ornate skull handle fell out of favor |
-| Edge trim | C110 copper or C260 brass sheet, about 0.4–0.6 mm | Candidate | Material and quantity not selected |
-| Fasteners | Copper/brass escutcheon pins, tacks, small screws, or selected rivets | Candidate | Match fastener to metal and structure |
+| Edge trim | Metal Supermarkets copper sheet, 91.5 × 25.5 cm, about 0.8 mm | Confirmed purchased | Reported $90; alloy/temper unknown; paper templates complete, metal installation unconfirmed (R2–R3) |
+| Fasteners | Raised rivet-like heads made of real copper | Planned requirement; exact part unselected | Must age with copper trim; flat Etsy heads rejected; round-head copper rivets suggested, not purchased (R2) |
 | Logo master | S4S hard maple, approximately 5–6 × 6–8 × 3/4–1 in | Candidate | Historical sourcing target; purchase unconfirmed |
 | Logo backfill | Epoxy/resin with optional plywood insert | Candidate | Product and compatibility untested |
 | Globe bond | Clear two-part epoxy or replaceable neutral-cure silicone | Candidate | Prototype exact products |
@@ -284,9 +306,9 @@ Status meanings:
 
 ## Tools on hand and candidate additions
 
-Owned tools named in the source include a jigsaw, a newly purchased angle-capable circular saw, miter saw, hand saw, coping saw, files, drill, and hole-saw set. The builder explicitly has no 3D printer and no laser-cutter access. Straight saw cuts are made against clamped guides. (T035, T071–T072, W010)
+Owned tools named in the source include carving tools (not yet used as of R1), a small projector (R4), a jigsaw, a newly purchased angle-capable circular saw, miter saw, hand saw, coping saw, files, drill, and hole-saw set. The builder explicitly has no 3D printer and no laser-cutter access. Straight saw cuts are made against clamped guides. (T035, T071–T072, W010)
 
-Candidate additions were a Forstner bit matched to the measured tube OD, a tubing cutter, carving knives/gouges, needle files, rounded wood or nylon forming tools, tin snips, and a small metal-forming setup made from clamps and wood blocks. No purchase should be inferred from a recommendation.
+Candidate additions were a Forstner bit matched to the measured tube OD, a tubing cutter, any additional carving knives/gouges after checking the owned set, needle files, rounded wood or nylon forming tools, tin snips, and a small metal-forming setup made from clamps and wood blocks. No purchase should be inferred from a recommendation.
 
 ## Historical suppliers and clean links
 
@@ -299,7 +321,7 @@ These were options discussed during the project, not claims of current stock or 
 - Alexandria Moulding maple hobby board — recovered T038 retailer screenshot identifies nominal 1 × 2 in × 8 ft S4S stock, model `00Q33-88096C`, Home Depot SKU `1000172616`. This narrow-stock option was discussed before the wider monolithic maple master; purchase is unconfirmed. The original screenshot is retained privately because it includes delivery-location details.
 - [LePage Plastic Wood Filler 946 mL](https://www.homedepot.ca/product/lepage-plastic-wood-filler-946-ml/1000110477) — used on a separate practice project and rejected for this build's cosmetic filling
 - [Paulin 12 × 24-in 26-gauge copper sheet](https://www.homedepot.ca/product/paulin-12x24-26ga-copper-sheet-/1000862144) — historical Home Depot candidate
-- Metal Supermarkets — C260 brass and C110 copper sheet were reported as candidates
+- Metal Supermarkets — copper sheet purchased September 11 for a reported $90, approximately 0.8 mm thick; corrected size 91.5 × 25.5 cm (R2–R3). Earlier C260/C110 sourcing suggestions do not establish the purchased alloy
 - Calgary Metal Market and Custom Stainless & Sheet Metal — possible cut-to-size or formed-sheet sources
 - Lee Valley — half-hard brass shim stock in 6 × 60-in rolls, up to 0.010 in, was considered for flexible decorative banding
 - [Wooster 2-in Pro nylon/polyester angle sash brush](https://www.homedepot.ca/product/wooster-2-in-50mm-wooster-pro-nylon-polyester-angle-sash-brush/1001133527)
@@ -312,11 +334,11 @@ The saved retailer PDFs are intentionally excluded from public links because the
 Before this project can be described as complete:
 
 1. Copy and reconcile the Apple Note **“Box of Death.”**
-2. Record as-built shell dimensions, panel thicknesses, button cutout, rear clearance, hinge geometry, and bulb layout.
+2. Verify the rounded shell measurements above and record remaining panel thicknesses, button cutout, rear clearance, hinge geometry, and bulb layout.
 3. Resolve the 1/2-in pine-enclosure statement against the later 1/4-in-shell/1/2-in-base statement by measuring and photographing every panel.
-4. Confirm the recovered concept image that controls the front; preserve the correct logo and final T026 text/button placement.
+4. Fit the upright/deck artwork to measured templates, verify projected scale and button placement on the box, and trace the skull pattern before carving; preserve the correct logo and final T026 text/button placement.
 5. Decide and install the rear leather pull/strap, registration stops, and magnets.
-6. Decide whether edges use real copper, real brass, leaf, or painted simulation; record metal alloy, thickness, strip widths, fastening, and galvanic/sealing choices.
+6. Prototype the selected copper trim from the completed paper templates; validate curved/rounded edges and underside corner overlaps, then record alloy/temper, final strip allowances, fasteners, and sealing choices. Confirm the purchased sheet covers the layout.
 7. Build and evaluate one complete marble-light socket and patina sample; document the intentional unsealed-copper choice and any runoff effects.
 8. Identify and bench-test every electrical part, including the battery, regulator, LEDs, button LED, MOSFET boards, and switch contacts.
 9. Confirm whether 2.0–3.3 V describes each complete string, measure current, preserve any original controller until its topology is known, and qualify the 5 V-to-about-3.0 V parallel-buck design.
