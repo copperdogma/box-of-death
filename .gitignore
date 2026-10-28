@@ -15,3 +15,8 @@
 # Local tooling artifacts
 __pycache__/
 *.pyc
+
+# Firmware build output and downloaded components
+/firmware/build/
+/firmware/managed_components/
+/firmware/sdkconfig.old

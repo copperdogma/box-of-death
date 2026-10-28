@@ -432,7 +432,7 @@ Once the finish, trim, and electronics are individually proven:
 4. Fit edge metal and pull without trapping or puncturing wiring.
 5. Mount the electronics tray, battery restraint, Wagos, and hinge harness.
 6. Verify polarity and rails before connecting the ESP32 or lights.
-7. Test continuous marquee/button illumination and each animated phase.
+7. Test continuous marquee/button illumination and each animated phase. The October 27, 2026 chase selection restores one of three marquee strings lit at a time, advancing every 500 ms, after the builder disliked the October 24 two-at-a-time trial.
 8. Test button debounce and Matter triggering repeatedly.
 9. Test power-bank runtime and auto-shutoff behavior.
 10. Test clamshell opening through repeated service cycles.

@@ -184,6 +184,10 @@ The copper light standoffs have a separate selected finish intent: irregular bro
 
 ## Lighting specification
 
+Firmware sequence selected October 27, 2026: restore one of the three marquee
+strings lit at a time, advancing every 500 ms. The builder disliked the
+two-lit-string trial selected October 24; see the [firmware README](../firmware/README.md).
+
 The proposed small-light assembly combines:
 
 - three strings of small LEDs under MOSFET control;
@@ -193,7 +197,7 @@ The proposed small-light assembly combines:
 - shallow pockets in the wood to align and reinforce each copper ring;
 - a small centered hole through each pocket for the LED wire.
 
-The intended sequence is a marquee-style chase, but the actual LED-string spacing, voltage, current, controller behavior, MOSFET grouping, globe count, and animation have not been documented. One complete socket should be prototyped before drilling the facade so globe diffusion, ring fit, adhesive, recess depth, wire aperture, and serviceability can be measured. (T010–T011, T055, T060–T065)
+The recovered conversations proposed a marquee-style chase but did not document actual LED-string spacing, voltage, current, controller behavior, MOSFET grouping, globe count, or animation. The later sequence and selected GPIO grouping are recorded in the [firmware README](../firmware/README.md). One complete socket should be prototyped before drilling the facade so globe diffusion, ring fit, adhesive, recess depth, wire aperture, and serviceability can be measured. (T010–T011, T055, T060–T065)
 
 ## Electronics and power
 
